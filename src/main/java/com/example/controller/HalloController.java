@@ -10,4 +10,12 @@ public class HalloController {
     public String show(){
         return "哈喽 Stringboot";
     }
+
+    @RequestMapping("shabi")
+    public void shazi(){
+        System.out.println("我是傻逼");
+    }
+
+
+
 }
